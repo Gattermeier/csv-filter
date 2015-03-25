@@ -7,9 +7,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matthias Gattermeier",
+  "author": { 
+    "name" : "Matthias Gattermeier", 
+    "email" : "matthias.gattermeier@gmail.com", 
+    "url" : "http://www.gattermeier.net"
+  },
   "repository": "https://github.com/Gattermeier/csv-filter"
-  "license": "GPL",
+  "license": "GPL-3.0+",
   "dependencies": {
     "json-2-csv": "^1.0.8",
     "minimist": "^1.1.1",
