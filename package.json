@@ -12,7 +12,7 @@
     "email" : "matthias.gattermeier@gmail.com", 
     "url" : "http://www.gattermeier.net"
   },
-  "repository": "https://github.com/Gattermeier/csv-filter"
+  "repository": "https://github.com/Gattermeier/csv-filter",
   "license": "GPL-3.0+",
   "dependencies": {
     "json-2-csv": "^1.0.8",
