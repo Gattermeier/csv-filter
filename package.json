@@ -1,18 +1,24 @@
 {
   "private": true,
   "name": "csv-filter",
-  "version": "0.0.1",
+  "version": “0.1.1”,
   "description": "takes a source CSV file, a filter CSV file and outputs matching records",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matthias Gattermeier",
-  "repository": "https://github.com/Gattermeier/csv-filter"
-  "license": "GPL",
+  "author": {
+    "name": "Matthias Gattermeier",
+    "email": "matthias.gattermeier@gmail.com",
+    "url": "http://www.gattermeier.net"
+  },
+  "repository": "https://github.com/Gattermeier/csv-filter",
+  "license": "GPL-3.0+",
   "dependencies": {
+    "async": "^0.9.0",
     "json-2-csv": "^1.0.8",
     "minimist": "^1.1.1",
+    "progress": "^1.1.8",
     "ya-csv": "^0.9.4"
   }
 }
